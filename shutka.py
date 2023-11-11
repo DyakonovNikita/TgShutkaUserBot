@@ -4,7 +4,7 @@ import pickle
 from random import randint
 from datetime import date
 
-from online import api_id, api_hash
+from local_env import api_id, api_hash
 
 
 with open('penis_metr', 'rb') as file:
